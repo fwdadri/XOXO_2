@@ -8,6 +8,7 @@ let jugador = "✨";
 let mensaje = document.getElementById("mensaje");
 let puntosD = document.getElementById("puntosD");
 let puntosV = document.getElementById("puntosV");
+let score = document.querySelector(".score");
 //variables Globales son las que esatan fuera de las funciones
 //DOM significan Document Object Model, o lo que es lo mismo, la estructura del documento HTML
 let victoriasEst = 0;
@@ -345,6 +346,10 @@ alone.onclick = function cambiarModo() {
   alert('modo compañia activado')
 }
 
+score.onclick = function eliminarScore() {
+  alert('✨Puntuaje Eliminado✨')
+  location.reload();
+}
 
 //function guardarScore(){
  // localStorage.setItem("score", JSON.stringify(scores))
