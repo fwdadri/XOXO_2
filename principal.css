@@ -3,22 +3,14 @@ body{
     margin: 0%;
     padding: 0%;
     color: rgb(172, 35, 31);
-    background-image: url(./imgs/d62817b3-1324-435c-94bd-e0e14cc51e7c.gif);
+    background-image: url(./imgs/Pixilart\ -\ Magic\ castle.gif);
     background-size: cover;
     background-repeat:no-repeat ;
 }
 
-
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    background-color: rgb(147, 185, 199);
-    height: 100px;
-}
-
 #titulo{
-    color: rgb(253, 253, 253);
+    -webkit-text-stroke: 2px white;
+    color: rgb(252, 104, 197);
     margin-left: 37%;
     height: 20px;
     width: 500px;
@@ -31,7 +23,8 @@ header{
     height: 70px;
     width: 100px;
     border-radius: 5%;
-    background-color: rgb(243, 138, 226);
+    background-color: rgb(243, 119, 222);
+    border-color:white;
 }
 
 #alone{
@@ -40,6 +33,7 @@ header{
     width: 100px;
     border-radius: 5%;
     background-color: rgb(243, 138, 226);
+    border-color:white;
 }
 
 .msj{
@@ -49,14 +43,19 @@ header{
 
 
 .contenedor2{
- margin-top: 20px;
+    margin-top: -35px;
+ margin-left: 350px;
+ width: 500px;
+ height: 330px;
+
 }
   
 .contenedor{
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 306px;
-    margin: 50px auto;
+    margin: 50px auto;background-color: white ;
+    border-radius: 10px;
 }
   
 .caja {
@@ -65,34 +64,9 @@ header{
     font-size: 60px;
 }
 
-#hamster{
-    width: 400px;
-    margin-bottom: -450px;
-    margin-left: 4%;
-}
-
-#kitty{
-    width: 380px;
-    margin-bottom: -400px;
-    margin-left: 800px;
-}
-#estrella{
-    width: 90px;
-    margin-left: 65%;
-    margin-top: -20%;
-}
-
 #msj{
     margin-left: -800px;
 
-}
-
-footer{
-    text-align: center;
-    background-color: rgb(147, 185, 199);
-    padding: 2%;
-    color: rgb(253, 253, 253);
-    
 }
 
 #music{
@@ -101,4 +75,27 @@ footer{
     color: rgb(255, 102, 255);
 }
 
+.conteo{
+    margin-left: 410px;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
 
+.btn{
+    margin-left: 430px;
+    width: 380px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+#hamster{
+    width: 300px;
+    margin-bottom: -470px;
+    margin-left: 4%;
+}
