@@ -8,6 +8,7 @@ let mensaje = document.getElementById("mensaje");
 let victoriasEst = 0;
 let victoriasFre = 0;
 let puntosD = document.getElementById("puntosD");
+let score = document.querySelector(".score");
 
 for (let index = 0; index < caja.length; index++) {
   
@@ -321,6 +322,7 @@ alone.onclick = function (){
   alert ('modo solitario activado')  
 }
 
-
-
-
+score.onclick = function eliminarScore() {
+  alert('✨Puntuaje Eliminado✨')
+  location.reload();
+}

@@ -11,7 +11,7 @@ body{
 #titulo{
     -webkit-text-stroke: 2px white;
     color: rgb(252, 104, 197);
-    margin-left: 37%;
+    margin-left: 33%;
     height: 20px;
     width: 500px;
     font-family: cursive;
@@ -24,7 +24,7 @@ body{
     width: 100px;
     border-radius: 5%;
     background-color: rgb(243, 119, 222);
-    border-color:white;
+    border-color: rgb(153, 60, 196);
 }
 
 #alone{
@@ -33,17 +33,20 @@ body{
     width: 100px;
     border-radius: 5%;
     background-color: rgb(243, 138, 226);
-    border-color:white;
+    border-color: rgb(153, 60, 196);
 }
 
+
 .msj{
-    color: rgb(253, 253, 253);
+    -webkit-text-stroke: 1px rgb(243, 243, 243);
+    color:rgb(153, 60, 196);
     text-align: center;
+    
 }
 
 
 .contenedor2{
-    margin-top: -35px;
+ margin-top: -35px;
  margin-left: 350px;
  width: 500px;
  height: 330px;
@@ -66,7 +69,6 @@ body{
 
 #msj{
     margin-left: -800px;
-
 }
 
 #music{
@@ -76,6 +78,7 @@ body{
 }
 
 .conteo{
+    color: rgb(243, 54, 183);
     margin-left: 410px;
     text-align: center;
     width: 400px;
